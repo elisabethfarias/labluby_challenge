@@ -32,12 +32,12 @@ const Header: React.FC = () => {
       <nav>
         <Link to={`/dashboard/${user?.login}`}>
           <FiHome size={20} />
-          Dashbord
+          Home
         </Link>
 
         <Link to={`/repository/${user?.login}`}>
           <FiGithub size={20} />
-          Repository
+          Repos
         </Link>
 
         <Link to={`/followers/${user?.login}`}>
